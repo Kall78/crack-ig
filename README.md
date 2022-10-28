@@ -2,7 +2,7 @@
 $pkg update && pkg upgrade
 $pkg install git
 $pkg install colorama
-$cd IG FREE
-$python2 IG FREE.py
+$cd IG Prem
+$python2 IG Prem.py
 Kalo mau recode ijin dulu bosss
 
