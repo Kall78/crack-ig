@@ -2,63 +2,6 @@
 #/usr/bin/python
 #Jangan di oprek gw benerinya susah
 #gw ijin recode
-# ==========Licensi========
-import os,sys,re,time,json,random,requests
-from bs4 import BeautifulSoup as parser
-from concurrent.futures import ThreadPoolExecutor
-
-def mulai():
-    os.system("git pull")
-def lupo_lupo_milzu():
-    os.system("clear")
-def aink(s):
-    for c in s + '\n':
-        sys.stdout.write(c)
-        sys.stdout.flush()
-        time.sleep(1./300)
-
-time.sleep(0.1)
-os.system("clear")
-print("\x1b[1;96m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-
-print("\x1b[1;96m┃╔═❲  HUBUNGI ADMIN JIKA INGIN BELI APIKEY :")
-print("\x1b[1;96m┃╔═❲  :=")
-print("\x1b[1;96m┃")
-print("\x1b[1;96m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-print("\x1b[1;91m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-print("\x1b[1;91m┃╔═❲ List Harga Api Key mingguan")
-print("\x1b[1;91m┃║• Api Key Mingguan : 10K")
-print("\x1b[1;91m┃║• Api Key 1 Minggu : 20K")
-print("\x1b[1;91m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-print("\x1b[1;93m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-print("\x1b[1;93m┃╔═❲ List Harga Api Key Bulanan")
-print("\x1b[1;93m┃║• Api Key 2 Bulan : 30K")
-print("\x1b[1;93m┃║• Api Key Pertahun : 40K")
-
-print("\x1b[1;93m┃╚═════════════════════════════════")
-print("\x1b[1;92m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-print("\x1b[1;92m┃╔═❲ List Harga Ijin Recode")
-print("\x1b[1;92m┃║• Litst Harga Sorce Code️ : 200")
-print("\x1b[1;92m┃║• Harga File Open code : 200K️")
-print("\x1b[1;92m┃╚═════════════════════════════════")
-print("\x1b[1;92m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-
-input("\n\x1b[1;94m-->  Enter")
-Password = "GQXS-OSPK-GSOD-OWND" # --> Data Req Api key --> open_kt(life)("GQXS-OSPK-GSOD-OWND")
-
-loop = 'true'
-while (loop == 'true'):
-    time.sleep(1.0)
-    passcode = input("\x1b[1;94m--> Validasi Api Key ? : ")
-    if (passcode == Password):
-            loop = 'false'
-            time.sleep(1.0)
-            print("\n \x1b[1;96m--> Mengecek Api key... ")
-            time.sleep(1.0)
-            print("\n \x1b[1;92m--> Api Key Anda Benar")          
-    else:
-            time.sleep(10.0)
-            print("\033[92m--> Api Key Anda Salah Kontol ")
 try:
 	import json
 	import uuid
