@@ -1,6 +1,7 @@
 # coding:utf-8
 #/usr/bin/python
 #Jangan di oprek gw benerinya susah
+#gw ijin recode
 # ==========Licensi========
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
